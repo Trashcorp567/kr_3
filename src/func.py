@@ -60,7 +60,7 @@ def card_number_send_from_hide(card_number):
             masked_number = f"{last_four_digits[:4]} {last_four_digits[4:6]}** **** {last_four_digits[-4:]}"
             return masked_number
         else:
-            return "Отсутствует"
+            return "Отсутствует "
 
 
 def card_number_send_to_hide(card_number):
